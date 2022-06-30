@@ -35,12 +35,11 @@ for (let i = 1 ; i <= 100 ; i++) {
 function Formatter() {
     this.prefix = "Hello";
     this.append = function (dato)  {
-      console.log("Starting engine...");
-      console.log(`${formatter.prefix} ${dato} `);
+          console.log(`${formatter.prefix} ${dato} `);
     }
   };
-  const formatter = new Formatter()
-  formatter.append("World");
+const formatter = new Formatter()
+formatter.append("World");
 
 Formatter.prototype.toLowerString = function(dato) {
     console.log(dato.toLowerCase())
