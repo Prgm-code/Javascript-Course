@@ -96,7 +96,7 @@ const mixedArray:Array<number|string> = ['Hello','I','have',3,'tasks'];
 const unsupportedArray = [{name:'Lucas',surname:'Fernandez'},'Hello',22];
 
 let removeFirstEntry = function (array:Array<number|string>) { 
-    array.splice(0,1);
+    array.shift();
     return array;
 
     }
