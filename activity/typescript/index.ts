@@ -4,7 +4,7 @@ interface Person {
     name:string;
     age:number ;
     profession: string;
-    //arr:(person : Person ) => string;
+   
    
 }
 let arr = (person : Person) :(string|number)[] => {
@@ -16,7 +16,7 @@ const lucas: Person = {
     name: 'Lucas ',
     age: 28,
     profession : 'Full Stack',
-   // arr: ()
+  
 }
 console.log(arr(lucas))
 
