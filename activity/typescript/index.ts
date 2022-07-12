@@ -26,7 +26,7 @@ const sumOrConcatenate = function(
     arg1:number|string,
     arg2:number|string ):(number|string) {
         if(typeof(arg1) === typeof(arg2) && typeof(arg1) === "number"){
-        return arg1 + arg2;
+        return +arg1 + +arg2;
            
         }else if  (typeof(arg1) === typeof(arg2)){
             return `${arg1} - ${arg2}`
